@@ -60,8 +60,6 @@ class ColorRange:
             if frame is None:
                 continue
 
-            # cv2.setMouseCallback("edges", click_and_crop)
-
             frame = cv2.resize(frame, (600, 400))
             self.set_image(frame)
 
